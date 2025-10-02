@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DJ & Locutor Almir Leite — Festas e Eventos</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #ff0057, #ff7b00);
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin: 5px 0 0;
+      font-size: 1.2rem;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2rem;
+      color: #ff7b00;
+    }
+
+    /* Galeria */
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .gallery img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Player */
+    audio {
+      display: block;
+      margin: 20px auto;
+    }
+
+    /* Contatos */
+    .contact {
+      text-align: center;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 20px;
+      border-radius: 6px;
+      background: #ff0057;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .contact a:hover {
+      background: #ff7b00;
+    }
+
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DJ & Locutor Almir Leite</h1>
+    <p>Festas e Eventos inesquecíveis</p>
+  </header>
+
+  <section>
+    <h2>Galeria</h2>
+    <div class="gallery">
+      <img src="fotos/festa1.jpg" alt="Evento 1">
+      <img src="fotos/festa2.jpg" alt="Evento 2">
+      <img src="fotos/festa3.jpg" alt="Evento 3">
+    </div>
+  </section>
+
+  <section>
+    <h2>Áudio de Apresentação</h2>
+    <audio controls>
+      <source src="audio/demo.mp3" type="audio/mpeg">
+      Seu navegador não suporta áudio.
+    </audio>
+  </section>
+
+  <section class="contact">
+    <h2>Contato</h2>
+    <a href="mailto:djalmirleite@gmail.com">📧 Email</a>
+    <a href="https://wa.me/5514998879059" target="_blank">📱 WhatsApp</a>
+    <a href="https://instagram.com/" target="_blank">📷 Instagram</a>
+    <a href="https://youtube.com/" target="_blank">▶ YouTube</a>
+    <a href="https://facebook.com/" target="_blank">👍 Facebook</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 DJ Almir Leite — Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
